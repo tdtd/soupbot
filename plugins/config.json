@@ -1,0 +1,49 @@
+{
+	"plugins": [
+		{
+			"name": "help",
+			"dir": "../plugins/help.js",
+			"commands": ["help"]
+		},
+		{
+			"name": "gold",
+			"dir": "../plugins/gold.js",
+			"commands": ["goldhelp"]
+		},
+		{
+			"name": "userSystem",
+			"dir": "../plugins/userSystem.js",
+			"commands": ["points"]
+		},
+		{
+			"name": "poll",
+			"dir": "../plugins/poll.js",
+			"commands": ["vote"]
+		},
+		{
+			"name": "betting",
+			"dir": "../plugins/betting.js",
+			"commands": ["bet"]
+		},
+		{
+			"name": "guessing",
+			"dir": "../plugins/guessingGame.js",
+			"commands": ["guess"]
+		},
+		{
+			"name": "broadcaster",
+			"dir": "../plugins/broadcaster.js",
+			"commands": []
+		},
+		{
+			"name": "basics",
+			"dir": "../plugins/basics.js",
+			"commands": ["soupmate", "whoareyou", "uptime"]
+		},
+		{
+			"name": "quotes",
+			"dir": "../plugins/quotes.js",
+			"commands": ["quote","addquote"]
+		}
+	]
+}
