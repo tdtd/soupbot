@@ -16,9 +16,9 @@ var options = {
 	},
 	identity: {
 		username: '',
-		password: '' //oauthtoken use http://twitchapps.com/tmi/
+		password: 'oauth:' //oauthtoken use http://twitchapps.com/tmi/
 	},
-	channels: [""]
+	channels: []
 };
 
 server.listen(port, function(){
